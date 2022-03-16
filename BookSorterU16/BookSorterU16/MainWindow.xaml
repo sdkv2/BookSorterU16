@@ -5,6 +5,7 @@
     <DockPanel Margin="10">
         <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10">
             <Button Name="btnOpenFile" Click="btnOpenFile_Click" Width="120">Open .csv file</Button>
+            <Image x:Name="image" HorizontalAlignment="Center" Height="218" Margin="0,40,0,0" VerticalAlignment="Top" Width="452" Source="https://i.ibb.co/k4gN8bh/download.jpg" Stretch="Fill"/>
         </WrapPanel>
         <TextBox Name="txtEditor" />
     </DockPanel>
